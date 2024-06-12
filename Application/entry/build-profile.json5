@@ -1,0 +1,32 @@
+{
+  "apiType": 'stageMode',
+  "showInServiceCenter": true,
+  "buildOption": {
+    //配置筛选har依赖.so资源文件的过滤规则
+    "napiLibFilterOption": {
+      //按照.so文件的优先级顺序，打包最高优先级的.so文件
+      "pickFirsts": [
+        "**/1.so"
+      ],
+      //按照.so文件的优先级顺序，打包最低优先级的.so 文件
+      "pickLasts": [
+        "**/2.so"
+      ],
+      //排除的.so文件
+      "excludes": [
+        "**/3.so"
+      ],
+      //允许当.so重名冲突时，使用高优先级的.so文件覆盖低优先级的.so文件
+      "enableOverride": true,
+    }
+  },
+  "targets": [
+    {
+      "name": "default",
+      "runtimeOS": "HarmonyOS"
+    },
+    {
+      "name": "ohosTest",
+    }
+  ]
+}

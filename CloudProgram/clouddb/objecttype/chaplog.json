@@ -1,0 +1,120 @@
+{
+  "fields": [
+    {
+      "belongPrimaryKey": true,
+      "fieldName": "logid",
+      "fieldType": "IntAutoIncrement",
+      "isNeedEncrypt": false,
+      "notNull": true
+    },
+    {
+      "belongPrimaryKey": false,
+      "fieldName": "cid",
+      "fieldType": "Integer",
+      "isNeedEncrypt": false,
+      "notNull": false
+    },
+    {
+      "belongPrimaryKey": false,
+      "fieldName": "qid",
+      "fieldType": "Integer",
+      "isNeedEncrypt": false,
+      "notNull": false
+    },
+    {
+      "belongPrimaryKey": false,
+      "fieldName": "uid",
+      "fieldType": "String",
+      "isNeedEncrypt": false,
+      "notNull": false
+    },
+    {
+      "belongPrimaryKey": false,
+      "fieldName": "currentIndex",
+      "fieldType": "Integer",
+      "isNeedEncrypt": false,
+      "notNull": false
+    },
+    {
+      "belongPrimaryKey": false,
+      "fieldName": "isDone",
+      "fieldType": "Boolean",
+      "isNeedEncrypt": false,
+      "notNull": false
+    },
+    {
+      "belongPrimaryKey": false,
+      "fieldName": "score",
+      "fieldType": "Double",
+      "isNeedEncrypt": false,
+      "notNull": false
+    },
+    {
+      "belongPrimaryKey": false,
+      "fieldName": "startDate",
+      "fieldType": "Date",
+      "isNeedEncrypt": false,
+      "notNull": false
+    },
+    {
+      "belongPrimaryKey": false,
+      "fieldName": "endDate",
+      "fieldType": "Date",
+      "isNeedEncrypt": false,
+      "notNull": false
+    },
+    {
+      "belongPrimaryKey": false,
+      "fieldName": "remark",
+      "fieldType": "String",
+      "isNeedEncrypt": false,
+      "notNull": false
+    }
+  ],
+  "indexes": [
+    {
+      "indexName": "field1Index",
+      "indexList": [
+        {
+          "fieldName": "logid",
+          "sortType": "DESC"
+        }
+      ]
+    }
+  ],
+  "objectTypeName": "chaplog",
+  "permissions": [
+    {
+      "rights": [
+        "Read",
+        "Upsert",
+        "Delete"
+      ],
+      "role": "World"
+    },
+    {
+      "rights": [
+        "Read",
+        "Upsert",
+        "Delete"
+      ],
+      "role": "Authenticated"
+    },
+    {
+      "rights": [
+        "Read",
+        "Upsert",
+        "Delete"
+      ],
+      "role": "Creator"
+    },
+    {
+      "rights": [
+        "Read",
+        "Upsert",
+        "Delete"
+      ],
+      "role": "Administrator"
+    }
+  ]
+}

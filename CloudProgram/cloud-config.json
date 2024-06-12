@@ -1,0 +1,18 @@
+{
+  "appSelected": {
+    "appId": "5765880207854299571",
+    "appName": "鸿蒙刷题",
+    "deviceTypes": [
+      {
+        "deviceType": 4
+      }
+    ],
+    "enableSites": "CN",
+    "installationFree": 1,
+    "packageType": 7,
+    "projectId": "388421841222131201",
+    "projectName": "鸿蒙一期项目",
+    "siteId": "CN"
+  },
+  "teamId": "30086000718440587"
+}

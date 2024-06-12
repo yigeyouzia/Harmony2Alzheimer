@@ -1,0 +1,126 @@
+{
+  "fields": [
+    {
+      "belongPrimaryKey": true,
+      "fieldName": "cqaid",
+      "fieldType": "IntAutoIncrement",
+      "isNeedEncrypt": false,
+      "notNull": true
+    },
+    {
+      "belongPrimaryKey": false,
+      "fieldName": "cid",
+      "fieldType": "Integer",
+      "isNeedEncrypt": false,
+      "notNull": false
+    },
+    {
+      "belongPrimaryKey": false,
+      "fieldName": "qid",
+      "fieldType": "Integer",
+      "isNeedEncrypt": false,
+      "notNull": false
+    },
+    {
+      "belongPrimaryKey": false,
+      "fieldName": "order",
+      "fieldType": "Integer",
+      "isNeedEncrypt": false,
+      "notNull": false
+    },
+    {
+      "belongPrimaryKey": false,
+      "fieldName": "qtype",
+      "fieldType": "String",
+      "isNeedEncrypt": false,
+      "notNull": true,
+      "defaultValue": "判断/单选/多选"
+    },
+    {
+      "belongPrimaryKey": false,
+      "fieldName": "title",
+      "fieldType": "String",
+      "isNeedEncrypt": false,
+      "notNull": true,
+      "defaultValue": "题目标题"
+    },
+    {
+      "belongPrimaryKey": false,
+      "fieldName": "letter",
+      "fieldType": "String",
+      "isNeedEncrypt": false,
+      "notNull": true,
+      "defaultValue": "[\"A\",\"B\"]"
+    },
+    {
+      "belongPrimaryKey": false,
+      "fieldName": "answer",
+      "fieldType": "String",
+      "isNeedEncrypt": false,
+      "notNull": true,
+      "defaultValue": "[\"A.答案A\",\"B.答案B\"]"
+    },
+    {
+      "belongPrimaryKey": false,
+      "fieldName": "rightAnswer",
+      "fieldType": "String",
+      "isNeedEncrypt": false,
+      "notNull": true,
+      "defaultValue": "[\"A\",\"B\"]"
+    },
+    {
+      "belongPrimaryKey": false,
+      "fieldName": "solution",
+      "fieldType": "String",
+      "isNeedEncrypt": false,
+      "notNull": true,
+      "defaultValue": "正确答案:B"
+    }
+  ],
+  "indexes": [
+    {
+      "indexName": "field1Index",
+      "indexList": [
+        {
+          "fieldName": "cqaid",
+          "sortType": "DESC"
+        }
+      ]
+    }
+  ],
+  "objectTypeName": "chapqa",
+  "permissions": [
+    {
+      "rights": [
+        "Read",
+        "Upsert",
+        "Delete"
+      ],
+      "role": "World"
+    },
+    {
+      "rights": [
+        "Read",
+        "Upsert",
+        "Delete"
+      ],
+      "role": "Authenticated"
+    },
+    {
+      "rights": [
+        "Read",
+        "Upsert",
+        "Delete"
+      ],
+      "role": "Creator"
+    },
+    {
+      "rights": [
+        "Read",
+        "Upsert",
+        "Delete"
+      ],
+      "role": "Administrator"
+    }
+  ]
+}

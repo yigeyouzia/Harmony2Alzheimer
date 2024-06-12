@@ -1,0 +1,18 @@
+{
+  "cloudDBZoneName": "hmqaZone",
+  "objectTypeName": "chaplog",
+  "objects": [
+    {
+      "logid": 1,
+      "cid": 1,
+      "qid": 1,
+      "uid": "1322446201894763072",
+      "currentIndex": 0,
+      "isDone": false,
+      "score": 0,
+      "startDate": 1704274455791,
+      "endDate": 1704274458791,
+      "remark": "备注"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "fields": [
+    {
+      "belongPrimaryKey": true,
+      "fieldName": "qalogid",
+      "fieldType": "IntAutoIncrement",
+      "isNeedEncrypt": false,
+      "notNull": true
+    },
+    {
+      "belongPrimaryKey": true,
+      "fieldName": "cqaid",
+      "fieldType": "Integer",
+      "isNeedEncrypt": false,
+      "notNull": true
+    },
+    {
+      "belongPrimaryKey": false,
+      "fieldName": "cid",
+      "fieldType": "Integer",
+      "isNeedEncrypt": false,
+      "notNull": false
+    },
+    {
+      "belongPrimaryKey": false,
+      "fieldName": "qid",
+      "fieldType": "Integer",
+      "isNeedEncrypt": false,
+      "notNull": false
+    },
+    {
+      "belongPrimaryKey": false,
+      "fieldName": "userAnswer",
+      "fieldType": "String",
+      "isNeedEncrypt": false,
+      "notNull": false
+    },
+    {
+      "belongPrimaryKey": false,
+      "fieldName": "isRight",
+      "fieldType": "Boolean",
+      "isNeedEncrypt": false,
+      "notNull": false
+    },
+    {
+      "belongPrimaryKey": false,
+      "fieldName": "answerTime",
+      "fieldType": "Date",
+      "isNeedEncrypt": false,
+      "notNull": false
+    },
+    {
+      "belongPrimaryKey": false,
+      "fieldName": "uid",
+      "fieldType": "String",
+      "isNeedEncrypt": false,
+      "notNull": false
+    }
+  ],
+  "indexes": [
+    {
+      "indexName": "field1Index",
+      "indexList": [
+        {
+          "fieldName": "qalogid",
+          "sortType": "DESC"
+        }
+      ]
+    }
+  ],
+  "objectTypeName": "chapqalog",
+  "permissions": [
+    {
+      "rights": [
+        "Read",
+        "Upsert",
+        "Delete"
+      ],
+      "role": "World"
+    },
+    {
+      "rights": [
+        "Read",
+        "Upsert",
+        "Delete"
+      ],
+      "role": "Authenticated"
+    },
+    {
+      "rights": [
+        "Read",
+        "Upsert",
+        "Delete"
+      ],
+      "role": "Creator"
+    },
+    {
+      "rights": [
+        "Read",
+        "Upsert",
+        "Delete"
+      ],
+      "role": "Administrator"
+    }
+  ]
+}

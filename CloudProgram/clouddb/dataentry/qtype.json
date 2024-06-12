@@ -1,0 +1,22 @@
+{
+  "cloudDBZoneName": "hmqaZone",
+  "objectTypeName": "qtype",
+  "objects": [
+    {
+      "qid": 1,
+      "title": "HarmonyOS应用开发高级认证",
+      "totalNum": 2,
+      "imageUrl": "https://agc-storage-drcn.platform.dbankcloud.cn/v0/hmqa-bbnx2/qlist%2Fic_cover1.png?token=fe9a48a9-e653-40b4-94af-ac421ff27950",
+      "remark": "备注",
+      "isDel": false
+    },
+    {
+      "qid": 2,
+      "title": "HarmonyOS应用开发初级认证",
+      "totalNum": 3,
+      "imageUrl": "https://agc-storage-drcn.platform.dbankcloud.cn/v0/hmqa-bbnx2/qlist%2Fic_cover2.png?token=b96fb223-f40a-44fb-b513-68061e79a130",
+      "remark": "备注",
+      "isDel": false
+    }
+  ]
+}

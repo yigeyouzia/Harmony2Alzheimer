@@ -1,0 +1,46 @@
+{
+  "cloudDBZoneName": "hmqaZone",
+  "objectTypeName": "chaplist",
+  "objects": [
+    {
+      "cid": 1,
+      "qid": 1,
+      "title": "HarmonyOS应用开发高级认证-端云一体化",
+      "level": "简单",
+      "order": 1,
+      "remark": "备注"
+    },
+    {
+      "cid": 5,
+      "qid": 1,
+      "title": "HarmonyOS应用开发高级认证-真题1",
+      "level": "中等",
+      "order": 1,
+      "remark": "备注"
+    },
+    {
+      "cid": 2,
+      "qid": 2,
+      "title": "<HarmonyOS第一课>运行Hello World",
+      "level": "简单",
+      "order": 1,
+      "remark": "备注"
+    },
+    {
+      "cid": 3,
+      "qid": 2,
+      "title": "<HarmonyOS第一课>ArkTS开发语言介绍",
+      "level": "简单",
+      "order": 2,
+      "remark": "备注"
+    },
+    {
+      "cid": 4,
+      "qid": 2,
+      "title": "<HarmonyOS第一课>应用程序框架",
+      "level": "简单",
+      "order": 3,
+      "remark": "备注"
+    }
+  ]
+}

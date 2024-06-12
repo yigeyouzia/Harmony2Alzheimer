@@ -1,0 +1,16 @@
+{
+  "cloudDBZoneName": "hmqaZone",
+  "objectTypeName": "chapqalog",
+  "objects": [
+    {
+      "qalogid": 1,
+      "cqaid": 0,
+      "cid": 0,
+      "qid": 0,
+      "userAnswer": ["A"],
+      "isRight": true,
+      "answerTime": 1704282248492,
+      "uid": "1322446201894763072"
+    }
+  ]
+}

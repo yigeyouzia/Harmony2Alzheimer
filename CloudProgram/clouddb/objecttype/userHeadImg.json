@@ -1,0 +1,64 @@
+{
+  "fields": [
+    {
+      "belongPrimaryKey": true,
+      "fieldName": "uid",
+      "fieldType": "String",
+      "isNeedEncrypt": false,
+      "notNull": true
+    },
+    {
+      "belongPrimaryKey": false,
+      "fieldName": "imgurl",
+      "fieldType": "String",
+      "isNeedEncrypt": false,
+      "notNull": false
+    }
+  ],
+  "indexes": [
+    {
+      "indexName": "field1Index",
+      "indexList": [
+        {
+          "fieldName": "uid",
+          "sortType": "DESC"
+        }
+      ]
+    }
+  ],
+  "objectTypeName": "userHeadImg",
+  "permissions": [
+    {
+      "rights": [
+        "Read",
+        "Upsert",
+        "Delete"
+      ],
+      "role": "World"
+    },
+    {
+      "rights": [
+        "Read",
+        "Upsert",
+        "Delete"
+      ],
+      "role": "Authenticated"
+    },
+    {
+      "rights": [
+        "Read",
+        "Upsert",
+        "Delete"
+      ],
+      "role": "Creator"
+    },
+    {
+      "rights": [
+        "Read",
+        "Upsert",
+        "Delete"
+      ],
+      "role": "Administrator"
+    }
+  ]
+}

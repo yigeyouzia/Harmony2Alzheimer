@@ -1,0 +1,95 @@
+{
+  "fields": [
+    {
+      "belongPrimaryKey": true,
+      "fieldName": "cid",
+      "fieldType": "IntAutoIncrement",
+      "isNeedEncrypt": false,
+      "notNull": true
+    },
+    {
+      "belongPrimaryKey": false,
+      "fieldName": "qid",
+      "fieldType": "Integer",
+      "isNeedEncrypt": false,
+      "notNull": true,
+      "defaultValue": 1
+    },
+    {
+      "belongPrimaryKey": false,
+      "fieldName": "title",
+      "fieldType": "String",
+      "isNeedEncrypt": false,
+      "notNull": true,
+      "defaultValue": "标题"
+    },
+    {
+      "belongPrimaryKey": false,
+      "fieldName": "level",
+      "fieldType": "String",
+      "isNeedEncrypt": false,
+      "notNull": true,
+      "defaultValue": "简单"
+    },
+    {
+      "belongPrimaryKey": false,
+      "fieldName": "order",
+      "fieldType": "Integer",
+      "isNeedEncrypt": false,
+      "notNull": false
+    },
+    {
+      "belongPrimaryKey": false,
+      "fieldName": "remark",
+      "fieldType": "String",
+      "isNeedEncrypt": false,
+      "notNull": false
+    }
+  ],
+  "indexes": [
+    {
+      "indexName": "field1Index",
+      "indexList": [
+        {
+          "fieldName": "cid",
+          "sortType": "DESC"
+        }
+      ]
+    }
+  ],
+  "objectTypeName": "chaplist",
+  "permissions": [
+    {
+      "rights": [
+        "Read",
+        "Upsert",
+        "Delete"
+      ],
+      "role": "World"
+    },
+    {
+      "rights": [
+        "Read",
+        "Upsert",
+        "Delete"
+      ],
+      "role": "Authenticated"
+    },
+    {
+      "rights": [
+        "Read",
+        "Upsert",
+        "Delete"
+      ],
+      "role": "Creator"
+    },
+    {
+      "rights": [
+        "Read",
+        "Upsert",
+        "Delete"
+      ],
+      "role": "Administrator"
+    }
+  ]
+}
