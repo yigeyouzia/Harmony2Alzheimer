@@ -9,7 +9,7 @@ export class Constants {
   static readonly PAGE_QUIZ = "pages/OnlineQuiz/QuizIndex";
   static readonly PAGE_ANSWER = "pages/OnlineQuiz/Answer";
 
-  static readonly MY_QUIZ = "pages/MyQuiz/MyQuizIndex";
+  static readonly MY_QUIZ = "pages/MyQuiz/MyQuizIndex1";
 
   static readonly PAGE_QUIZ_RESULT = "pages/OnlineQuiz/QuizResult";
   static readonly PAGE_QLIST = "pages/BrushQuest/QList";

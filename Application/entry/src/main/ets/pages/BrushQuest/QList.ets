@@ -1,18 +1,32 @@
 import { TypeItem } from '../../components/BrushQuest/TypeItem' //练习列表项组件
 import router from '@ohos.router'
 
+interface title {
+  section: string,
+  name: string
+}
+
+const QuizName: title[] = [
+  { section: 'pages/MyQuiz/MyQuizIndex1', name: "简易智能状态检查中文版" },
+  { section: 'pages/MyQuiz/MyQuizIndex2', name: "CDR（Clinical Dementia Rating Worksheet）临床痴呆评定表" },
+  { section: 'pages/MyQuiz/MyQuizIndex3', name: "MoCA （Montreal Congnive Assessment）蒙特利尔认知评估" }
+]
+
 @Entry
 @Component
 export struct QList {
+  @State QuizNames: title[] = QuizName;
+  @State basePath: string = "pages/MyQuiz/MyQuizIndex";
+
   build() {
     Row() {
       Column({ space: 15 }) {
-        ForEach([1, 2, 3, 4], (item, index) => {
-          TypeItem()
+        ForEach(this.QuizNames, (item: title, index) => {
+          TypeItem({ title_name: item.name })
             .onClick(() => {
-              router.pushUrl({ url: 'pages/BrushQuest/ChapterList', params: { typeid: index } })
+              router.pushUrl({ url: item.section, params: { typeid: index } })
             })
-        }, item => item)
+        })
       }
       .width('100%')
       .height('100%')

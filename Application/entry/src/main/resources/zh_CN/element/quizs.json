@@ -1,0 +1,12 @@
+{
+  "string": [
+    {
+      "name": "test1",
+      "value": "你好"
+    },
+    {
+      "name": "abc",
+      "value": "你11好"
+    }
+  ]
+}

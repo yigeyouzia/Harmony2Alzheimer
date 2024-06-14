@@ -2,6 +2,8 @@ import router from '@ohos.router'
 
 @Component
 export struct TypeItem {
+  private title_name: string = '默认标题'
+
   build() {
     Flex() {
       Image($r('app.media.ic_cover1'))
@@ -12,7 +14,7 @@ export struct TypeItem {
 
       Column() {
         Column() {
-          Text('HarmonyOS应用开发高级认证')
+          Text(this.title_name)
             .fontSize(14)
             .fontWeight(500)
             .textAlign(TextAlign.Start)

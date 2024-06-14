@@ -4,13 +4,14 @@
     "pages/Auth",
     "pages/Accout/Login",
     "pages/Accout/LoginByEmail",
-    "pages/Home/Home",
     "pages/Accout/UserCenter",
     "pages/BrushQuest/QList",
     "pages/BrushQuest/ChapterList",
     "pages/OnlineQuiz/QuizIndex",
     "pages/OnlineQuiz/Answer",
     "pages/OnlineQuiz/QuizResult",
-    "pages/MyQuiz/MyQuizIndex"
+    "pages/MyQuiz/MyQuizIndex1",
+    "pages/MyQuiz/MyQuizIndex2",
+    "pages/MyQuiz/MyQuizIndex3"
   ]
 }

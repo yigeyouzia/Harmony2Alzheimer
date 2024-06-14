@@ -22,6 +22,7 @@ class Answer implements IAnswer {
   }
 }
 
+@Preview
 @Component
 export struct QuizItem {
   @State selectedIndex: number = 2;
@@ -59,7 +60,7 @@ export struct QuizItem {
 
         // 题目类型
         Row() {
-          Text('单选题')
+          Text('请回答下面问题：')
             .fontSize(12)
             .fontColor(Color.Gray)
             .padding({ top: 2, bottom: 2, left: 10, right: 10 })

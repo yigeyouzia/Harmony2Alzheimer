@@ -2,7 +2,7 @@ import router from '@ohos.router'
 import { Constants } from '../../common/Constants'
 import { QATTop } from './QATop'
 
-@Entry
+@Preview
 @Component
 export struct Home {
   build() {
@@ -60,7 +60,7 @@ export struct Home {
           .backgroundColor(Color.White)
           .borderRadius(8)
           .onClick(() => {
-            router.pushUrl({ url: 'pages/MyQuiz/MyQuizIndex' })
+            router.pushUrl({ url: Constants.MY_QUIZ })
           })
         }
         .height(58)
