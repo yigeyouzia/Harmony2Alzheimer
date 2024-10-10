@@ -26,7 +26,7 @@ struct Login {
   @State isEnabled: boolean = false; //控制登录按钮是否能点
   @State timer: number = 60;
   @State intervalId: number = -123456;
-  @State telPhoneNum: string = '18181761872' // 电话
+  @State telPhoneNum: string = '181*******' // 电话
   @State vCode: string = '8888' // 验证码
   @State isTest: Boolean = true;
 

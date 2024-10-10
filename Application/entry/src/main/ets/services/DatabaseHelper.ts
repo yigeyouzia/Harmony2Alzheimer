@@ -1,5 +1,6 @@
 import cloud from '@hw-agconnect/cloud';
-import schema from '../../resources/rawfile/schema.json';
+// import schema from '../../resources/rawfile/schema.json';
+import schema from './schema.json';
 
 const dbZone = 'hmqaZone';
 import { qtype } from '../models/qtype';

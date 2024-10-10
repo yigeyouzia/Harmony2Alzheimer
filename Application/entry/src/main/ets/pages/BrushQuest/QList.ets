@@ -12,7 +12,7 @@ const QuizName: title[] = [
   { section: 'pages/MyQuiz/MyQuizIndex3', name: "MoCA （Montreal Congnive Assessment）蒙特利尔认知评估" }
 ]
 
-@Entry
+@Preview
 @Component
 export struct QList {
   @State QuizNames: title[] = QuizName;

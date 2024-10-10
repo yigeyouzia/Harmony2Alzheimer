@@ -4,8 +4,6 @@
     "pages/Auth",
     "pages/Accout/Login",
     "pages/Accout/LoginByEmail",
-    "pages/Accout/UserCenter",
-    "pages/BrushQuest/QList",
     "pages/BrushQuest/ChapterList",
     "pages/OnlineQuiz/QuizIndex",
     "pages/OnlineQuiz/Answer",

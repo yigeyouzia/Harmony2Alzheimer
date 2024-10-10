@@ -23,7 +23,7 @@ import Prompt from '@system.prompt';
 import router from '@ohos.router';
 import { Constants } from '../../common/Constants';
 
-@Entry
+@Preview
 @Component
 export struct UserCenter {
   @State isLink: boolean = true; // true：关联  false：解绑
